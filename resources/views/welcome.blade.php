@@ -9,7 +9,7 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Staatliches&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap" rel="stylesheet">
         <!-- Styles / Scripts -->
         @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
             @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -19,58 +19,57 @@
             </style>
         @endif
     </head>
-    <div class="bg-pattern absolute -z-10 w-screen h-[1300px]"></div>
-    <div class="bg-pattern-2 absolute -z-9 top-40.5 left-55.5 h-[100px] w-[160px]"></div>
     <body class="bg-[#FDFFFA] text-[#1b1b18] w-screen min-h-screen overflow-x-hidden">
         <nav class="flex w-full h-25 px-16 py-10 mt-2">
             <div class="my-auto justify-between flex w-screen">
-                <h1 class="text-4xl font-semibold">Logo</h1>
+                <img src="http://127.0.0.1:8000/logo-removebg-preview%201.svg" alt="" class="w-16 h-16">
                 <div class="space-x-10 my-auto"> 
                     <a href="" class="font-semibold text-lg">Home</a>
                     <a href="" class="font-semibold text-lg">About</a>
-                    <a href="" class="font-semibold text-lg">Article</a>
-                    <a href="" class="font-semibold text-lg">Shop</a>
+                    <a href="" class="font-semibold text-lg">Blog</a>
                 </div>
                 <div class="my-auto space-x-5">
-                    <a href="" class="text-lg font-semibold">Sign In</a>
-                    <a href="" class="text-lg font-semibold bg-[#E0F8AC] p-3 rounded-[5px]">Sign Up</a>
+                    <a href="" class="text-lg font-semibold bg-[#E0F8AC] p-3 rounded-[5px]">Get Started</a>
                 </div>
             </div>
         </nav>
 
-        <div class="flex mt-20">
-    <div class="flex mx-auto h-72">
-        <h1 class="self-center text-8xl text-center font-semibold bg-gradient-to-r from-[#075D07] via-[#5A8A42] to-[#8AC310] bg-clip-text text-transparent">
-            Solusi Terbaik untuk <span class="italic">Menumbuhkan</span> Masa Depan
-        </h1>
+    <div class="flex flex-col mt-14">
+        <div class="flex mx-auto h-72">
+            <h1 class="self-center text-8xl text-center font-semibold bg-gradient-to-r from-[#075D07] via-[#5A8A42] to-[#8AC310] bg-clip-text text-transparent m-40">
+                Artikel Pertanian, Solusi untuk Masa Depan
+            </h1>
+        </div>
+        <div class="relative w-full h-screen flex flex-col">
+            <h1 class="self-center text-2xl">
+            Temukan berbagai informasi mengenai pertanian dalam artikel-artikel yang tersedia!
+            </h1>
+            <img src="http://127.0.0.1:8000/free-photo-of-idyllic-english-countryside-with-rolling-hills%201.svg" alt="" class="scale-125 absolute bottom-30">
+        </div>
     </div>
-</div>
+        
+        
+    <div class="flex flex-col mt-15 mx-[137px]">
+    <img src="http://127.0.0.1:8000/logo-removebg-preview%201.svg" alt="" class="w-20 h-20">  
 
-
-        <div class="flex mt-23 scale-125">
-            <div class="flex mx-auto justfify-between space-x-5">
-                <div class="flex flex-col space-y-5 mt-23">
-                    <div class="w-[20rem] bg-[#D9D9D9] h-[13rem] rounded-[1rem]"></div>
-                    <div class="w-[13rem] bg-[#D9D9D9] h-[9rem] rounded-[1rem] self-end"></div>
-                </div>
-                <div class="flex flex-col space-y-5">
-                    <div class="flex space-x-5">
-                        <div class="flex flex-col space-y-5 mt-10">
-                            <div class="w-[15rem] bg-[#D9D9D9] h-[22rem] rounded-[1rem]"></div>
-                        </div>
-                        <div class="space-y-5">
-                            <div class="w-[9rem] bg-[#D9D9D9] h-[9rem] rounded-[1rem]"></div>
-                            <div class="w-[13rem] bg-[#D9D9D9] h-[13.6rem] rounded-[1rem] self-end"></div>
-                        </div>
-                    </div>
-                    <div class="w-[21rem] bg-[#D9D9D9] h-[3rem] rounded-[1rem]"></div>
-                </div>
-            </div>
+    <div class="flex h-screen w-full ">
+        <div class="mt-14 space-y-10 w-[60%]">
+           <h1 class="text-6xl w-[90%] font-semibold">TUMBUHIN Menumbuhkan Pengetahuan Pertanian</h1> 
+            <h1 class="w-[70%] text-[30px]">Tumbuhin adalah platform yang menghadirkan artikel seputar sektor pertanian. Kami menyajikan informasi yang mudah diakses, membantu menemukan jawaban langsung dari artikel yang tersedia.</h1>
+            <a href="" class="text-lg font-semibold bg-[#E0F8AC] p-3 rounded-[5px]">
+                Learn More
+            </a>
         </div>
-
-        <div class="mt-20 h-40">
-
+        <div class="h-full w-[40%] flex pt-10">
+            <img src="http://127.0.0.1:8000/pexels-photo-17691920%201.svg" alt="" class="w-[390px] h-[585px]">
         </div>
+    </div>
+    </div>
+   
+
+    <div class="mt-20 h-40">
+
+    </div>
 
 
 

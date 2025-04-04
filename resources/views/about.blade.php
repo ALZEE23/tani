@@ -19,56 +19,33 @@
             </style>
         @endif
     </head>
-    <div class="bg-pattern absolute -z-10 w-screen h-[1300px]"></div>
-    <div class="bg-pattern-2 absolute -z-9 top-40.5 left-55.5 h-[100px] w-[160px]"></div>
-    <div class="bg-pattern-2 absolute -z-9 top-261.5 right-15.5 h-[160px] w-[200px]"></div>
     <body class="bg-[#FDFFFA] text-[#1b1b18] w-screen min-h-screen overflow-x-hidden">
         <nav class="flex w-full h-25 px-16 py-10 mt-2">
             <div class="my-auto justify-between flex w-screen">
-                <h1 class="text-4xl font-semibold">Logo</h1>
+                <img src="http://127.0.0.1:8000/logo-removebg-preview%201.svg" alt="" class="w-16 h-16">
                 <div class="space-x-10 my-auto"> 
                     <a href="" class="font-semibold text-lg">Home</a>
                     <a href="" class="font-semibold text-lg">About</a>
-                    <a href="" class="font-semibold text-lg">Article</a>
-                    <a href="" class="font-semibold text-lg">Shop</a>
+                    <a href="" class="font-semibold text-lg">Blog</a>
                 </div>
                 <div class="my-auto space-x-5">
-                    <a href="" class="text-lg font-semibold">Sign In</a>
-                    <a href="" class="text-lg font-semibold bg-[#E0F8AC] p-3 rounded-[5px]">Sign Up</a>
+                    <a href="" class="text-lg font-semibold bg-[#E0F8AC] p-3 rounded-[5px]">Get Started</a>
                 </div>
             </div>
         </nav>
 
-        <div class="flex mt-20">
-    <div class="flex mx-auto h-72">
-        <h1 class="self-center text-8xl text-center font-semibold bg-gradient-to-r from-[#075D07] via-[#5A8A42] to-[#8AC310] bg-clip-text text-transparent">
-            Solusi Terbaik untuk <span class="italic">Menumbuhkan</span> Masa Depan
+    <div class="flex flex-col mt-20">
+        <div class="flex mx-auto h-72">
+            <h1 class="self-center text-8xl text-center font-semibold bg-gradient-to-r from-[#075D07] via-[#5A8A42] to-[#8AC310] bg-clip-text text-transparent m-40">
+                Artikel Pertanian, Solusi untuk Masa Depan
+            </h1>
+        </div>
+        <h1 class="self-center text-2xl">
+            Temukan berbagai informasi mengenai pertanian dalam artikel-artikel yang tersedia!
         </h1>
     </div>
-</div>
-
-
-        <div class="flex mt-23 scale-125">
-            <div class="flex mx-auto justfify-between space-x-5">
-                <div class="flex flex-col space-y-5 mt-23">
-                    <div class="w-[20rem] bg-[#D9D9D9] h-[13rem] rounded-[1rem]"></div>
-                    <div class="w-[13rem] bg-[#D9D9D9] h-[9rem] rounded-[1rem] self-end"></div>
-                </div>
-                <div class="flex flex-col space-y-5">
-                    <div class="flex space-x-5">
-                        <div class="flex flex-col space-y-5 mt-10">
-                            <div class="w-[15rem] bg-[#D9D9D9] h-[22rem] rounded-[1rem]"></div>
-                        </div>
-                        <div class="space-y-5">
-                            <div class="w-[9rem] bg-[#D9D9D9] h-[9rem] rounded-[1rem]"></div>
-                            <div class="w-[13rem] bg-[#D9D9D9] h-[13.6rem] rounded-[1rem] self-end"></div>
-                        </div>
-                    </div>
-                    <div class="w-[21rem] bg-[#D9D9D9] h-[3rem] rounded-[1rem]"></div>
-                </div>
-            </div>
-        </div>
-
+        
+    <!-- <img src="http://127.0.0.1:8000/free-photo-of-idyllic-english-countryside-with-rolling-hills%201.svg" alt="" class="scale-125 absolute top-72"> -->
         <div class="mt-20 h-40">
 
         </div>
