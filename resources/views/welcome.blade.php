@@ -24,7 +24,7 @@
             <div class="my-auto justify-between flex w-screen">
                 <img src="http://127.0.0.1:8000/logo-removebg-preview%201.svg" alt="" class="w-16 h-16">
                 <div class="space-x-10 my-auto"> 
-                    <a href="" class="font-semibold text-lg">Home</a>
+                    <a href="" class="font-semibold text-lg">Dashboard</a>
                     <a href="" class="font-semibold text-lg">About</a>
                     <a href="" class="font-semibold text-lg">Blog</a>
                 </div>
@@ -49,16 +49,18 @@
     </div>
         
         
-    <div class="flex flex-col mt-15 mx-[137px]">
+    <div class="flex flex-col mt-40 mx-[137px]">
     <img src="http://127.0.0.1:8000/logo-removebg-preview%201.svg" alt="" class="w-20 h-20">  
 
     <div class="flex h-screen w-full ">
-        <div class="mt-14 space-y-10 w-[60%]">
-           <h1 class="text-6xl w-[90%] font-semibold">TUMBUHIN Menumbuhkan Pengetahuan Pertanian</h1> 
-            <h1 class="w-[70%] text-[30px]">Tumbuhin adalah platform yang menghadirkan artikel seputar sektor pertanian. Kami menyajikan informasi yang mudah diakses, membantu menemukan jawaban langsung dari artikel yang tersedia.</h1>
-            <a href="" class="text-lg font-semibold bg-[#E0F8AC] p-3 rounded-[5px]">
+        <div class="mt-14 space-y-10  w-[60%] h-[100%]">
+           <h1 class="text-6xl w-[80%] font-semibold">TUMBUHIN Menumbuhkan Pengetahuan Pertanian</h1> 
+           <div class="flex flex-col gap-7">
+                <h1 class="w-[70%] text-2xl">Tumbuhin adalah platform yang menghadirkan artikel seputar sektor pertanian. Kami menyajikan informasi yang mudah diakses, membantu menemukan jawaban langsung dari artikel yang tersedia.</h1>
+            <a href="" class="text-lg font-semibold w-40 text-center bg-[#E0F8AC] p-3 rounded-[5px]">
                 Learn More
             </a>
+           </div>
         </div>
         <div class="h-full w-[40%] flex pt-10">
             <img src="http://127.0.0.1:8000/pexels-photo-17691920%201.svg" alt="" class="w-[390px] h-[585px]">
