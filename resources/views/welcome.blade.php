@@ -53,9 +53,9 @@
     <img src="http://127.0.0.1:8000/logo-removebg-preview%201.svg" alt="" class="w-20 h-20">  
 
     <div class="flex h-screen w-full ">
-        <div class="mt-14 space-y-10  w-[60%] h-[100%]">
-           <h1 class="text-6xl w-[80%] font-semibold">TUMBUHIN Menumbuhkan Pengetahuan Pertanian</h1> 
-           <div class="flex flex-col gap-7">
+        <div class="mt-14 space-y-20  w-[60%] h-[100%]">
+           <h1 class="text-6xl w-[90%] font-semibold">TUMBUHIN Menumbuhkan Pengetahuan Pertanian</h1> 
+           <div class="flex flex-col gap-16">
                 <h1 class="w-[70%] text-2xl">Tumbuhin adalah platform yang menghadirkan artikel seputar sektor pertanian. Kami menyajikan informasi yang mudah diakses, membantu menemukan jawaban langsung dari artikel yang tersedia.</h1>
             <a href="" class="text-lg font-semibold w-40 text-center bg-[#E0F8AC] p-3 rounded-[5px]">
                 Learn More
