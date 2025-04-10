@@ -19,17 +19,17 @@
             </style>
         @endif
     </head>
-    <body class="bg-[#FDFFFA] text-[#1b1b18] w-screen min-h-screen overflow-x-hidden">
+    <body class="bg-[#F1E9E9] text-[#1b1b18] w-screen min-h-screen overflow-x-hidden">
         <nav class="flex w-full h-25 px-16 py-10 mt-2">
             <div class="my-auto justify-between flex w-screen">
                 <img src="http://127.0.0.1:8000/logo-removebg-preview%201.svg" alt="" class="w-16 h-16">
                 <div class="space-x-10 my-auto"> 
-                    <a href="" class="font-semibold text-lg">Dashboard</a>
+                    <a href="/" class="font-semibold text-lg">Home</a>
                     <a href="" class="font-semibold text-lg">About</a>
-                    <a href="" class="font-semibold text-lg">Blog</a>
+                    <a href="/blog" class="font-semibold text-lg">Blog</a>
                 </div>
                 <div class="my-auto space-x-5">
-                    <a href="" class="text-lg font-semibold bg-[#E0F8AC] p-3 rounded-[5px]">Get Started</a>
+                    <a href="" class="text-lg font-semibold bg-[#4C563C] text-[#FFFFFF] py-3 px-7 rounded-[5px]">Get Started</a>
                 </div>
             </div>
         </nav>
@@ -57,7 +57,7 @@
            <h1 class="text-6xl w-[90%] font-semibold">TUMBUHIN Menumbuhkan Pengetahuan Pertanian</h1> 
            <div class="flex flex-col gap-16">
                 <h1 class="w-[70%] text-2xl">Tumbuhin adalah platform yang menghadirkan artikel seputar sektor pertanian. Kami menyajikan informasi yang mudah diakses, membantu menemukan jawaban langsung dari artikel yang tersedia.</h1>
-            <a href="" class="text-lg font-semibold w-40 text-center bg-[#E0F8AC] p-3 rounded-[5px]">
+            <a href="" class="text-lg font-semibold w-40 text-center text-[#FFFFFF] bg-[#4C563C] p-3 rounded-[5px]">
                 Learn More
             </a>
            </div>

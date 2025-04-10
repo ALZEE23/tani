@@ -9,7 +9,7 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Staatliches&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap" rel="stylesheet">
         <!-- Styles / Scripts -->
         @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
             @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -19,36 +19,67 @@
             </style>
         @endif
     </head>
-    <body class="bg-[#FDFFFA] text-[#1b1b18] w-screen min-h-screen overflow-x-hidden">
+    <body class="bg-[#F1E9E9] text-[#1b1b18] w-screen min-h-screen overflow-x-hidden">
         <nav class="flex w-full h-25 px-16 py-10 mt-2">
             <div class="my-auto justify-between flex w-screen">
                 <img src="http://127.0.0.1:8000/logo-removebg-preview%201.svg" alt="" class="w-16 h-16">
                 <div class="space-x-10 my-auto"> 
-                    <a href="" class="font-semibold text-lg">Home</a>
+                    <a href="/" class="font-semibold text-lg">Home</a>
                     <a href="" class="font-semibold text-lg">About</a>
                     <a href="" class="font-semibold text-lg">Blog</a>
                 </div>
                 <div class="my-auto space-x-5">
-                    <a href="" class="text-lg font-semibold bg-[#E0F8AC] p-3 rounded-[5px]">Get Started</a>
+                    <a href="" class="text-lg font-semibold bg-[#4C563C] text-[#FFFFFF] py-3 px-7 rounded-[5px]">Get Started</a>
                 </div>
             </div>
         </nav>
 
-    <div class="flex flex-col mt-20">
-        <div class="flex mx-auto h-72">
-            <h1 class="self-center text-8xl text-center font-semibold bg-gradient-to-r from-[#075D07] via-[#5A8A42] to-[#8AC310] bg-clip-text text-transparent m-40">
-                Artikel Pertanian, Solusi untuk Masa Depan
-            </h1>
+   <div class="grid grid-cols-3 mt-14 px-32 w-full gap-y-8"> <!-- Removed h-[200vh], added gap-y-8 -->
+    @for ($i = 0; $i < 6; $i++)
+    <div class="w-[90%] h-[28rem] bg-[#FFFFFF] rounded-xl p-3 space-y-2">
+        <div class="bg-slate-300 w-full h-[45%] rounded-lg relative">
+            <!-- <img src="" alt="" class="w-full h-[100%] rounded-lg"> -->
+            <div class="h-10 w-9 bg-white rounded-md absolute bottom-3 right-4">
+            </div>
         </div>
-        <h1 class="self-center text-2xl">
-            Temukan berbagai informasi mengenai pertanian dalam artikel-artikel yang tersedia!
-        </h1>
+        <h1 class="text-2xl w-[80%] font-bold">Panduan Dasar Bertanam Hidroponik</h1>
+        <h1>10 Desember 2024</h1>
+        <h1 class="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique soluta tenetur provident magnam sequi nisi numquam porro, enim saepe nemo, voluptate doloremque mollitia. Corrupti illo numquam recusandae beatae sequi quasi?</h1>
+        <div class="flex gap-x-3">
+            <div class="w-10 h-10 rounded-full bg-black"></div>
+            <div class="flex flex-col">
+                <h1 class="text-xs">Written by</h1>
+                <h1 class="text-sm font-semibold">Penulis</h1>
+            </div>
+        </div>
     </div>
+    @endfor
+</div>
         
-    <!-- <img src="http://127.0.0.1:8000/free-photo-of-idyllic-english-countryside-with-rolling-hills%201.svg" alt="" class="scale-125 absolute top-72"> -->
-        <div class="mt-20 h-40">
+        
+    <!-- <div class="flex flex-col mt-40 mx-[137px]">
+    <img src="http://127.0.0.1:8000/logo-removebg-preview%201.svg" alt="" class="w-20 h-20">  
 
+    <div class="flex h-screen w-full ">
+        <div class="mt-14 space-y-20  w-[60%] h-[100%]">
+           <h1 class="text-6xl w-[90%] font-semibold">TUMBUHIN Menumbuhkan Pengetahuan Pertanian</h1> 
+           <div class="flex flex-col gap-16">
+                <h1 class="w-[70%] text-2xl">Tumbuhin adalah platform yang menghadirkan artikel seputar sektor pertanian. Kami menyajikan informasi yang mudah diakses, membantu menemukan jawaban langsung dari artikel yang tersedia.</h1>
+            <a href="" class="text-lg font-semibold w-40 text-center bg-[#E0F8AC] p-3 rounded-[5px]">
+                Learn More
+            </a>
+           </div>
         </div>
+        <div class="h-full w-[40%] flex pt-10">
+            <img src="http://127.0.0.1:8000/pexels-photo-17691920%201.svg" alt="" class="w-[390px] h-[585px]">
+        </div>
+    </div>
+    </div> -->
+   
+
+    <div class="mt-20 h-40">
+
+    </div>
 
 
 
